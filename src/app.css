@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+
+body {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  height: 100vh;            /* full screen height */
+  margin: 0;                /* remove default margin */
+  flex-direction: column;   /* stack items top-to-bottom */
+  background-color: #f2ecce;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  color: #1d1d20;
+}
+
+.wrapper {
+    background-color: rgba(242, 245, 235, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}

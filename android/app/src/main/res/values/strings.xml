@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">cozycup :)</string>
+    <string name="title_activity_main">cozycup :)</string>
+    <string name="package_name">xyz.maniksharma.cozycup</string>
+    <string name="custom_url_scheme">xyz.maniksharma.cozycup</string>
+</resources>

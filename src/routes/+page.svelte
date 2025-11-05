@@ -107,6 +107,7 @@
 <main class="p-6 text-center" class:selected>
   {#if showNameArea}
     <Dialog bind:dialog on:close={() => console.log('closed')}>
+      <p>Welcome to cozycup! <br /> this is a lil program to relieve some stress from the day, reflect on what you've done, or what you're gonna do today :) <strong>remember, growth isnt a straight line!</strong></p>
       <textarea class:selected
         bind:value={name}
         placeholder="What's your name?"
